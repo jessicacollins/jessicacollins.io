@@ -1,0 +1,183 @@
+{
+    "basics": {
+        "name": "Jessica Collins",
+        "label": "Web Developer",
+        "picture": "https://s.gravatar.com/avatar/ffebce7df386f208ed41523173a4a13f?s=80",
+        "email": "jessicodes@gmail.com",
+        "phone": "(602) 625-1523",
+        "website": "http://jessicacollins.io",
+        "summary": "An accomplished IT professional with an extensive background in software development processes and systems operations. Deeply dedicated to refocusing career towards software development while effectively utilizing existing skill set.",
+        "location": {
+            "address": "4616 West Laurel Lane",
+            "postalCode": "AZ 85304",
+            "city": "Phoenix",
+            "countryCode": "US",
+            "region": "Arizona"
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "jessicacollins",
+                "url": "https://github.com/jessicacollins"
+            },
+            {
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/jessicollins"
+            },
+            {
+                "network": "Twitter",
+                "username": "@jessicodes",
+                "url": "https://twitter.com/jessicodes"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "SRA International",
+            "position": "Systems Administrator",
+            "website": "https://www.sra.com/",
+            "startDate": "2011-12-19",
+            "endDate": "2015-01-07",
+            "summary": "Responsibilities primarily consisted of supporting the Administrative Office of the US Courts’ software quality assurance test center.",
+            "highlights": [
+                "Intranet portal web development using Drupal / LAMP technologies",
+                "Software Deployment",
+                "Linux web server administration",
+                "Informix / MySQL database administration",
+                "VMware Administration",
+                "Microsoft server administration",
+                "Network and Desktop Support"
+            ]
+        },
+        {
+            "company": "Go Daddy",
+            "position": "Software Quality Assurance Engineer",
+            "website": "http://www.godaddy.com",
+            "startDate": "2010-02-01",
+            "endDate": "2011-12-19",
+            "summary": "Responsibilities primarily consisted of testing cloud storage, web based email, and calendar applications on a fast paced, agile software development team.",
+            "highlights": [
+                "Implemented functional, automated, mobile, and security test processes",
+                "Interpret business requirement, write test cases, report defects, and author test reports",
+                "Compose customer facing help articles and maintain knowledge base WIKI",
+                "Selected to mentor Jr. QA Engineers through the company’s pilot Jr. Developer program"
+            ]
+        },
+        {
+            "company": "Blueprint Consulting",
+            "position": "Software Quality Assurance Tester - Lead",
+            "website": "http://www.blueprintqa.com/",
+            "startDate": "2010-01-30",
+            "endDate": "2008-01-03",
+            "summary": "Responsibilities primarily consisted of testing web applications for the US Courts.",
+            "highlights": [
+                "Functional and automated testing across multiple platforms for several projects",
+                "Hosted national clients onsite to participate in user acceptance testing",
+                "Compose customer facing help articles and maintain knowledge base WIKI",
+                "Selected to be a test lead, which included managing assignments, task delegation, and project scheduling"
+            ]
+        },
+        {
+            "company": "Cielo Industries",
+            "position": "Software Quality Assurance Tester",
+            "website": "",
+            "startDate": "2006-01-01",
+            "endDate": "2008-01-01",
+            "summary": "Solely implemented industry standard software quality assurance methodologies for a start up company that developed a full-featured web application designed to facilitate the management of service industry companies."
+        },
+        {
+            "company": "Cyclone Commerce (now Axway)",
+            "position": "Advanced Technical Support Engineer",
+            "website": "https://www.axway.com/",
+            "startDate": "2005-01-01",
+            "endDate": "2004-01-01",
+            "summary": "Employed in depth troubleshooting techniques to resolve dedicated client issues related to B2B E-Commerce transactions for large national clients. Provided rotating, on call 24/7 support."        
+        },
+        {
+            "company": "Acxiom",
+            "position": "Mainframe Operator",
+            "website": "http://www.acxiom.com/",
+            "startDate": "2000-01-01",
+            "endDate": "2001-01-01",
+            "summary": "Applied standard mainframe operating procedures including managing programs, systems monitoring, and data library management."        
+        },
+        {
+            "company": "DevelopOnline.com",
+            "position": "Web Developer",
+            "startDate": "2000-01-01",
+            "endDate": "2001-01-01",
+            "summary": "Developed dynamic web pages using HTML, CSS, and PHP for an embedded systems design web application in an intense start up environment."      
+        },
+        {
+            "company": "Extreme Internet",
+            "position": "Linux Systems Administration / Technical Support",
+            "startDate": "1998-01-01",
+            "endDate": "2000-01-01",
+            "summary": "Linux systems administration, network configuration, and technical support for a local Internet service provider."       
+        },
+        {
+            "company": "National Data Corporation HIS",
+            "position": "Computer Operations Media Specialist",
+            "startDate": "1997-01-01",
+            "endDate": "1998-01-01",
+            "summary": "Mainframe operation, media library management and repair for a national pharmaceutical data warehousing and analysis company."       
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Wheelchair Labs",
+            "position": "Volunteer",
+            "website": "http://wheelchairlabs.org/",
+            "summary": "Wheelchair Labs improves the lives of those who are mobility impaired by repairing and refurbishing used electric wheelchairs and scooters, and donating them to those in need."      
+        }
+    ],
+    "education": [
+        {
+            "institution": "RockIt Bootcamp",
+            "area": "Full Stack Web Development",
+            "studyType": "Certificate of completion",
+            "startDate": "2015-12-01",
+            "endDate": "2015-04-04"
+        },
+        {
+            "institution": "Scottsdale Community College",
+            "area": "Web Development",
+            "studyType": "Associates - in progress",
+            "startDate": "2012-01-01",
+            "endDate": "2016-01-01"
+        }
+    ],
+  "awards": [
+    {
+      "title": "Certified Software Tester",
+      "date": "2010-11-27",
+      "awarder": "International Software Testing Qualifications Board"
+    }
+  ],
+  "skills": [
+    {
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": [
+            "Software Test Processes",
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "PHP",
+            "Sass",
+            "MYSQL",
+            "Linux",
+            "GIT",
+            "OOP",
+            "AJAX",
+            "JSON",
+            "Laravel",
+            "Apache",
+            "MVC",
+            "SDLC",
+            "Agile Methodologies"
+        ]
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Jessica Collins</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Jessica Collins
+					</h1>
+					<h2>
+						Web Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">jessicodes@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">(602) 625-1523</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://jessicacollins.io">http://jessicacollins.io</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>An accomplished IT professional with an extensive background in software development processes and systems operations. Deeply dedicated to refocusing career towards software development while effectively utilizing existing skill set.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/jessicacollins">jessicacollins</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+						<div class="url">
+							<a href="https://www.linkedin.com/in/jessicollins">https://www.linkedin.com/in/jessicollins</a>
+						</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://twitter.com/jessicodes">@jessicodes</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SRA International</span>
+					<span class="date">
+						2011-12-19 — 2015-01-07
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.sra.com/">https://www.sra.com/</a>
+				</div>
+				<div class="position">
+					Systems Administrator
+				</div>
+				<div class="summary">
+					<p>Responsibilities primarily consisted of supporting the Administrative Office of the US Courts’ software quality assurance test center.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Intranet portal web development using Drupal / LAMP technologies</li>
+					<li class="bullet">Software Deployment</li>
+					<li class="bullet">Linux web server administration</li>
+					<li class="bullet">Informix / MySQL database administration</li>
+					<li class="bullet">VMware Administration</li>
+					<li class="bullet">Microsoft server administration</li>
+					<li class="bullet">Network and Desktop Support</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Go Daddy</span>
+					<span class="date">
+						2010-02-01 — 2011-12-19
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.godaddy.com">http://www.godaddy.com</a>
+				</div>
+				<div class="position">
+					Software Quality Assurance Engineer
+				</div>
+				<div class="summary">
+					<p>Responsibilities primarily consisted of testing cloud storage, web based email, and calendar applications on a fast paced, agile software development team.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Implemented functional, automated, mobile, and security test processes</li>
+					<li class="bullet">Interpret business requirement, write test cases, report defects, and author test reports</li>
+					<li class="bullet">Compose customer facing help articles and maintain knowledge base WIKI</li>
+					<li class="bullet">Selected to mentor Jr. QA Engineers through the company’s pilot Jr. Developer program</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Blueprint Consulting</span>
+					<span class="date">
+						2010-01-30 — 2008-01-03
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.blueprintqa.com/">http://www.blueprintqa.com/</a>
+				</div>
+				<div class="position">
+					Software Quality Assurance Tester - Lead
+				</div>
+				<div class="summary">
+					<p>Responsibilities primarily consisted of testing web applications for the US Courts.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Functional and automated testing across multiple platforms for several projects</li>
+					<li class="bullet">Hosted national clients onsite to participate in user acceptance testing</li>
+					<li class="bullet">Compose customer facing help articles and maintain knowledge base WIKI</li>
+					<li class="bullet">Selected to be a test lead, which included managing assignments, task delegation, and project scheduling</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Cielo Industries</span>
+					<span class="date">
+						2006-01-01 — 2008-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+					Software Quality Assurance Tester
+				</div>
+				<div class="summary">
+					<p>Solely implemented industry standard software quality assurance methodologies for a start up company that developed a full-featured web application designed to facilitate the management of service industry companies.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Cyclone Commerce (now Axway)</span>
+					<span class="date">
+						2005-01-01 — 2004-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.axway.com/">https://www.axway.com/</a>
+				</div>
+				<div class="position">
+					Advanced Technical Support Engineer
+				</div>
+				<div class="summary">
+					<p>Employed in depth troubleshooting techniques to resolve dedicated client issues related to B2B E-Commerce transactions for large national clients. Provided rotating, on call 24/7 support.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Acxiom</span>
+					<span class="date">
+						2000-01-01 — 2001-01-01
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.acxiom.com/">http://www.acxiom.com/</a>
+				</div>
+				<div class="position">
+					Mainframe Operator
+				</div>
+				<div class="summary">
+					<p>Applied standard mainframe operating procedures including managing programs, systems monitoring, and data library management.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>DevelopOnline.com</span>
+					<span class="date">
+						2000-01-01 — 2001-01-01
+					</span>
+				</h4>
+				<div class="position">
+					Web Developer
+				</div>
+				<div class="summary">
+					<p>Developed dynamic web pages using HTML, CSS, and PHP for an embedded systems design web application in an intense start up environment.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Extreme Internet</span>
+					<span class="date">
+						1998-01-01 — 2000-01-01
+					</span>
+				</h4>
+				<div class="position">
+					Linux Systems Administration / Technical Support
+				</div>
+				<div class="summary">
+					<p>Linux systems administration, network configuration, and technical support for a local Internet service provider.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>National Data Corporation HIS</span>
+					<span class="date">
+						1997-01-01 — 1998-01-01
+					</span>
+				</h4>
+				<div class="position">
+					Computer Operations Media Specialist
+				</div>
+				<div class="summary">
+					<p>Mainframe operation, media library management and repair for a national pharmaceutical data warehousing and analysis company.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Wheelchair Labs</span>
+					<span class="date">
+						 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://wheelchairlabs.org/">http://wheelchairlabs.org/</a>
+				</div>
+				<div class="position">
+					Volunteer
+				</div>
+				<div class="summary">
+					<p>Wheelchair Labs improves the lives of those who are mobility impaired by repairing and refurbishing used electric wheelchairs and scooters, and donating them to those in need.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>RockIt Bootcamp</span>
+					<span class="date">
+						2015-12-01 — 2015-04-04
+					</span>
+				</h4>
+				<div class="area">
+					Full Stack Web Development
+				</div>
+				<div class="studyType">
+					Certificate of completion
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Scottsdale Community College</span>
+					<span class="date">
+						2012-01-01 — 2016-01-01
+					</span>
+				</h4>
+				<div class="area">
+					Web Development
+				</div>
+				<div class="studyType">
+					Associates - in progress
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Certified Software Tester</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2010-11-27
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>International Software Testing Qualifications Board</strong>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Software Test Processes</li>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>jQuery</li>
+					<li>PHP</li>
+					<li>Sass</li>
+					<li>MYSQL</li>
+					<li>Linux</li>
+					<li>GIT</li>
+					<li>OOP</li>
+					<li>AJAX</li>
+					<li>JSON</li>
+					<li>Laravel</li>
+					<li>Apache</li>
+					<li>MVC</li>
+					<li>SDLC</li>
+					<li>Agile Methodologies</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	
+
+	</div>
+	
+	</body>
+</html>
